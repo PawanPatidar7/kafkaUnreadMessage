@@ -33,9 +33,9 @@ GET /kafka/lag
 - Response
 The response will be a JSON object containing:
 
-totalMessages: The total number of messages in the topic.
-totalReadMessages: The total number of messages that have been read (committed offset).
-totalUnreadMessages: The number of messages that have not been read (lag).
+     - totalMessages: The total number of messages in the topic.
+     - totalReadMessages: The total number of messages that have been read (committed offset).
+     - totalUnreadMessages: The number of messages that have not been read (lag).
 
 - Example Request
 
@@ -58,8 +58,8 @@ GET /kafka/lag?topic=my-topic&groupId=my-group
 - Create a New Request:
 
 - Set the request type to GET.
-    -- Enter the URL in the format: http://localhost:8080/kafka/lag?topic=<topic>&groupId=<groupId> . Replace <topic> and <groupId> with the appropriate values.
-    --  Send the Request: Click the "Send" button to make the request.
+     - Enter the URL in the format: http://localhost:8080/kafka/lag?topic=<topic>&groupId=<groupId> . Replace <topic> and <groupId> with the appropriate values.
+     -  Send the Request: Click the "Send" button to make the request.
 
 - View the Response: The response will be displayed in the Postman interface, showing the JSON object with the offset lag information.
  
