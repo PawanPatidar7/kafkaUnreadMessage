@@ -43,11 +43,13 @@ GET /kafka/lag?topic=my-topic&groupId=my-group
 
 - Example Response
 
-``` {
+```
+ {
     "totalMessages": 1500,
     "totalReadMessages": 1200,
     "totalUnreadMessages": 300
-} ``` 
+}
+ ``` 
 
 
 ## Testing with Postman
