@@ -57,9 +57,9 @@ GET /kafka/lag?topic=my-topic&groupId=my-group
 
 - Create a New Request:
 
-Set the request type to GET.
-Enter the URL in the format: http://localhost:8080/kafka/lag?topic=<topic>&groupId=<groupId>. Replace <topic> and <groupId> with the appropriate values.
-Send the Request: Click the "Send" button to make the request.
+- Set the request type to GET.
+    -- Enter the URL in the format: http://localhost:8080/kafka/lag?topic=<topic>&groupId=<groupId> . Replace <topic> and <groupId> with the appropriate values.
+    --  Send the Request: Click the "Send" button to make the request.
 
 - View the Response: The response will be displayed in the Postman interface, showing the JSON object with the offset lag information.
  
